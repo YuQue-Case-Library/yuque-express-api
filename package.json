@@ -1,0 +1,36 @@
+{
+  "name": "yuque-express-api",
+  "version": "0.0.1",
+  "description": "一个基于 Express 的语雀 API 服务",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "prod": "tsc && node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuQue-Case-Library/yuque-express-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuQue-Case-Library/yuque-express-api/issues"
+  },
+  "homepage": "https://github.com/YuQue-Case-Library/yuque-express-api#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^12.0.2",
+    "ts-node-dev": "^1.0.0-pre.39"
+  },
+  "dependencies": {
+    "@types/morgan": "^1.7.35",
+    "@types/qs": "^6.5.3",
+    "axios": "^0.18.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "qs": "^6.7.0",
+    "typescript": "^3.4.5"
+  }
+}
